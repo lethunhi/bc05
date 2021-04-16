@@ -2,16 +2,31 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Carousel from "./components/Carousel";
+import Contact from "./components/Contact";
 import ProductList from "./components/ProductList";
 import Footer from "./components/Footer";
+import DemoDataBinding from "./data-binding/DemoDataBinding";
+import ShowRoomCar from "./show-room-car/ShowRoomCar";
+import RenderWithMap from "./render-with-map/RenderWithMap";
+import Parent from "./props/Parent";
+import AppXucXac from "./AppXucXac/AppXucXac";
+import AppBaiTap from "./BaiTap/AppBaiTap";
 
 function App() {
   return (
     <div>
       <Header />
       <Carousel />
+      <Contact />
       <ProductList />
       <Footer />
+      {/* // 
+      // 
+      // <DemoDataBinding />
+      // <ShowRoomCar />
+      // <RenderWithMap />
+      // <Parent />
+      // <AppXucXac /> */}
     </div>
   );
 }
@@ -33,4 +48,7 @@ export default App;
 6/ Lợi ích của việc chia components: 
 - tái sử dụng lại (ưu tiên) 
 -dễ quản lý file và mở rộng ứng dụng 
+7/ Có 2 loại components: 
+- Dạng 1: class 
+- Dạng 2: function
  */
